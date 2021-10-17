@@ -104,8 +104,6 @@ inline-blockを設定している
 ハンバーガーメニュー
 ------------------------- */
   #humMenu {
-    display: block;
-    margin-right: auto;
     padding: 12px;
     background-color: rgb(59, 84, 110);
     text-align: center;
@@ -114,6 +112,7 @@ inline-blockを設定している
   #humCheck, #humClose { display:none; }
   #humOpen {
     display: block;
+    width: 40px;
     cursor: pointer;
     text-align: right;
   }
@@ -325,33 +324,44 @@ border～プロパティで三角を作り、positionで位置調整
 /*SP*/
 @media screen and (max-width: 767px) {
 
-     #header .site-title {
-         padding: 20px 16px;
-     }
-     #navi {
-         /* 横スクロールを表示 */
-         overflow-x: scroll;
-     }
+    #header .site-title {
+      padding: 20px 16px;
+    }
+    #navi {
+      /* 横スクロールを表示 */
+      overflow-x: scroll;
+    }
+  
 
-#pickup {
-    flex-direction: column;
-    padding-top: 140px;
-}
-#pickup .article {
-    width: 100%;
-    margin-bottom: 30px;
-}
+    #pickup {
+      flex-direction: column;
+      padding-top: 140px;
+    }
+    #pickup article {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  
 
-#sidebar {
-    width: 100%;
-    padding: 0;
-}
+    #container {
+      flex-direction: column;
+    }
+    main {
+      width: 100%;
+    }
+  
 
-#footer .content {
-    flex-direction: column;
-}
-#footer .item {
-    width: 100%;
-    margin-bottom: 30px;
-}
-}
+    #sidebar {
+      width: 100%;
+      padding: 0;
+    }
+  
+
+    #footer .content {
+      flex-direction: column;
+    }
+    #footer .item {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
