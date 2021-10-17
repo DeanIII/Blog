@@ -1,10 +1,11 @@
-- 👋 Hi, I’m @DeanIII
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+【開発にかかった時間】
+合計16時間。日数にすると一週間。
+平日4時間のプログラミング学習のうち2時間を充て
+休日10時間のプログラミング学習のうち3時間を充てた。
 
-<!---
-DeanIII/DeanIII is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+【開発目的】
+ハンバーガーメニューや見た目の動きを多少付けつつスピーディーに作成する。
+
+【こだわり】
+普段学習しているJavaScriptを使用しない取り組み方。
+雑多にならないよう気を付けつつ機能を付け加えていく。
