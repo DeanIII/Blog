@@ -111,10 +111,8 @@ inline-blockを設定している
    
   #humCheck, #humClose { display:none; }
   #humOpen {
-    display: block;
     width: 40px;
     cursor: pointer;
-    text-align: right;
   }
   #humOpen:hover {
     opacity: 0.5;
